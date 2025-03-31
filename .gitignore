@@ -1,0 +1,49 @@
+# Ignore Visual Studio specific files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore user-specific settings
+*.dbmdl
+*.jfm
+
+# Ignore logs and debug files
+*.log
+
+# Ignore compiled code
+*.dll
+*.exe
+*.pdb
+*.cache
+*.ilk
+*.map
+*.exp
+
+# Ignore NuGet packages
+*.nupkg
+packages/
+project.lock.json
+project.assets.json
+
+# Ignore environment and configuration files
+appsettings*.json
+.env
+secrets.json
+
+# Ignore publish output
+wwwroot/
+**/node_modules/
+
+# Ignore Mac and Linux system files
+.DS_Store
+*.swp
+
+# Ignore JetBrains Rider and ReSharper files
+.idea/
+*.DotSettings.user
