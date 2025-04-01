@@ -1,4 +1,4 @@
-namespace V6_ASP.NET_Course.Models
+namespace V6_ASP.NET_Course.Models.ViewModels
 {
     public class ErrorViewModel
     {
